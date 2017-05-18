@@ -1,0 +1,33 @@
+h1{
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 27px;
+	margin-left: 10px;
+}
+div#tchat,
+.overflow_text{
+	margin-bottom: 50px;
+}
+
+textarea {
+	resize:none;
+	width: 100%;
+}
+
+.overflow_text {
+	height:400pt;
+	overflow:auto;
+}
+.container_textarea{margin-right: 110px;}
+
+.container_submit{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+a{
+	margin-left: 20px;
+}
