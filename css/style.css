@@ -1,33 +1,83 @@
-h1{
-	margin-bottom: 50px;
+h1 {
+	font-size:27px;
+	margin-left:10px;
+	color: #d6d8db;
+	margin-bottom: 20px;
 }
 
-h2{
-	font-size: 27px;
-	margin-left: 10px;
-}
-div#tchat,
-.overflow_text{
-	margin-bottom: 50px;
+.container_textarea {
+	margin-top: 15px;
+	margin-right: 110px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding: 6px 4px 0 4px;
 }
 
 textarea {
 	resize:none;
-	width: 100%;
+	width:100%;
+	max-height: 64px;
+	border: none;
+}
+textarea:focus{
+	outline: none;
 }
 
 .overflow_text {
-	height:400pt;
+	height: 650px;
 	overflow:auto;
 }
-.container_textarea{margin-right: 110px;}
 
-.container_submit{
-	position: absolute;
-	top: 10px;
-	right: 20px;
+
+.container_submit {
+	position:absolute;
+	top:10px;
+	right:20px;
 }
 
-a{
-	margin-left: 20px;
+div.fichier{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
 }
+
+.upload_fichier{
+	margin-bottom:20px;
+}
+
+
+#ArchivesFichiers a {color:#d6d8db;}
+
+p {color:#2C2D30;}
+
+#tchat p {margin:30px 0;}
+
+body {overflow-y:hidden;}
+
+#ArchivesFichiers {background-color:#22323A;}
+
+#fichiers {word-wrap:break-word;}
+#fichiers .temps{
+	color: #d6d8db;
+	margin-top: 20px;
+}
+
+#fichiers hr {
+	height:1px;
+	width:90%;
+	padding:0;
+	background-color:black;
+	border:0;
+	margin:auto;
+	margin-top:1em;
+}
+
+hr {
+	height:1px;
+	width:100%;
+	margin:1em 0;
+	padding:0;
+	background-color:black;
+	border:0;
+}
+.text_forme{padding-left: 20px;}

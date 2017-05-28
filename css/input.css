@@ -1,0 +1,79 @@
+.inputfile.select_image,
+.inputfile.select_fichier{
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+}
+
+.inputfile.select_image {
+    height: 50%;
+    width: 62%;
+}
+.inputfile.select_fichier{
+    height: 7%;
+    width: 50%;
+}
+.inputfile + label {
+    font-size: 11px;
+    font-weight: 700;
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+
+.no-js .inputfile + label {display: none;}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+.inputfile-1 + label{
+    color: #f1e5e6;
+    background-color: #3C4C55;
+}
+
+span{
+  display: block;
+  width: 116px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#myFichier{margin-left: 55px;}
+
+.button_envoie_fichier,
+.button_envoie_image{
+    background-color: #9d4444;
+    border-color: #9d4444;
+}
+.button_envoie_fichier:hover,
+.button_envoie_image:hover{
+    background-color: #9d4444;
+    border-color: #9d4444;
+}
+
+.button_envoie_fichier:focus,
+.button_envoie_image:focus{
+    background-color: #9d4444;
+    border-color: #9d4444;
+}
+.button_envoie_fichier{
+    width: 64%;
+    margin-bottom: 25px !important;
+}
+.button_envoie_image{width: 73%;}
