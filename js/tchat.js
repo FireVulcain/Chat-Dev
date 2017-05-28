@@ -127,6 +127,10 @@ function getMessages(){
 					}
 				}
 				lastid=data.lastid;
+				if (data.result.length > 0) {
+					var divToScroll = $('div#tchat');
+	   				divToScroll.scrollTop(divToScroll[0].scrollHeight - divToScroll[0].clientHeight);
+				}
 		}else{
 			alert(data.erreur);
 		}
