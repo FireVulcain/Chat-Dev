@@ -7,7 +7,7 @@ Espace de discussion et de partage de code pour développeur contenant une archi
 ![wireframe](http://preview.ibb.co/m8gs0k/premiere_maquette.jpg "wireframe 1")
 ## SCÉNARIO D'UTILISATION
 
-<<<<<<< HEAD
+HEAD
 Partage de code et de fichier entre dev
 =======
 Espace de discussion ouverte pour les développeurs.
@@ -16,7 +16,6 @@ L'upload des fichiers se fera par formulaire - tandis qu'une copie se mettra sur
 
 Les archives se mettront à jour toutes les deux semaines, ainsi, en recherchant un dossier, vous aurez une liste historique des semaines, pour simplifier le tout.
 
->>>>>>> 010f92a2756fe7c15ce996b4f51da61171393611
 
 
 ## TECHNOLOGIES
