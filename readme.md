@@ -7,7 +7,6 @@ Espace de discussion et de partage de code pour développeur contenant une archi
 ![wireframe](http://preview.ibb.co/m8gs0k/premiere_maquette.jpg "wireframe 1")
 ## SCÉNARIO D'UTILISATION
 
-HEAD
 Partage de code et de fichier entre dev
 =======
 Espace de discussion ouverte pour les développeurs.
